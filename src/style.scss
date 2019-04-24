@@ -1,0 +1,23 @@
+.center { 
+    display: table;
+    margin: 0 auto;
+}
+
+.full-width {
+    width: 100%
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 1fr);
+}
+
+.grid > button {
+    margin: 10px;
+    height: 40px;
+}
+
+.divider {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
